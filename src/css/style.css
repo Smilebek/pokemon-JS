@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #FFD845;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.container {
+    max-width: 100%;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.wrap {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.box-wrap img {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    gap: 35px;
+}
+
+.box-wrap_btn {
+    padding: 16px 85px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    background: #FFF;
+}
+
+.wrap-cards_item {
+    position: relative;
+    width: 307px;
+    height: 423px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background: #FFF;
+}
+
+.wrap-cards_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+}
+
+.wrap-cards_img {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;
+    height: 180px;
+    margin-bottom: 68px;
+}
+
+.wrap-cards-span {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.wrap-cards_title {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wrap-cards_box {
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.weight-box {
+    margin-left: 30px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.weight-box_kg {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.weight-box_age {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.heart {
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    left: 250px;
+}
